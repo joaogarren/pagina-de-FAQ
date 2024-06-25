@@ -1,2 +1,34 @@
-# pagina-de-FAQ
-uma pequena lista de FAQ sobre HTML
+<!DOCTYPE html>
+ <h1>Pagina de FAQ-HTML</h1>
+ <p>Algumas perguntas sobre a linguagem de programação HTML</p>
+
+
+<div class='question'>
+    <input type='checkbox' id='question-1'>
+    <label for='question-1'>O que é HTML?</label>
+    <div class='answer'>
+        HTML é uma linguagem de marcação utilizada na construção de páginas na Web..
+    </div>
+  </div>
+  
+  <div class='question'>
+    <input type='checkbox' id='question-2'>
+    <label for='question-2'>o que se cria com HTML?</label>
+    <div class='answer'>
+        é o código que você usa para estruturar uma página web e seu conteúdo.
+    </div>
+    <div class='question'>
+        <input type='checkbox' id='question-1'>
+        <label for='question-1'>Quando foi lançado o HTML?</label>
+        <div class='answer'>
+          Na década de 1990.
+        </div>
+      </div>
+      
+      <div class='question'>
+        <input type='checkbox' id='question-2'>
+        <label for='question-2'>Quem criou o HTML?</label>
+        <div class='answer'>
+          Foi criado por Tim Berners-Lee.
+        </div>
+      </div>
